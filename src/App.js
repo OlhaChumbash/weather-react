@@ -1,11 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import Search from "./Search";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-          <Search />
+        < div className="container"> 
+          <Weather />
+          <footer>
+            <p>
+                This project was created by 
+                <a href='https://www.linkedin.com/in/olha-chumbash-597568269/' target='_blanck'>  Olha Chimbash </a>
+                and is 
+                <a href='https://github.com/OlhaChumbash/weather-react' target='_blanck'> open-sourced on GitHub</a>
+            </p>
+                         
+          </footer>
+          </div>  
     </div>
   );
 }
