@@ -2,8 +2,10 @@
     font-family: arial, sans-serif;
     border: 1px solid #dadde1;
     padding: 16px;
-    border-radius: 4px;
-    color: rgb(135, 135, 135);
+    border-radius: 6px;
+    color: rgb(20 23 95);
+    box-shadow: -1px 7px 50px -25px rgb(20 23 95);
+    background: linear-gradient(-4deg, rgba(42,117,223,0.9808298319327731) 0%, rgba(204,220,254,0.8827906162464986) 52%);   
   }
   
   .Weather h1 {
@@ -27,7 +29,7 @@
   
   .Weather .temperature {
     font-weight: bold;
-    color: rgb(33, 33, 33);
+    color: rgb(20 23 95);
     font-size: 64px;
     line-height: 64px;
     margin-left: 5px;
