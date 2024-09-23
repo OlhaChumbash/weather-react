@@ -14,8 +14,8 @@ export default function Weather(props) {
         setWeatherData({
             ready: true,
             city: responce.data.city,
-            // description: responce.data.condition.description,
-            // icon: responce.data.condition.icon_url,
+            description: responce.data.condition.description,
+            icon: responce.data.condition.icon,
             country: responce.data.country, 
             temperature: responce.data.temperature.current,
             humidity: responce.data.temperature.humidity,
