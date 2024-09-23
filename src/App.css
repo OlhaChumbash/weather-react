@@ -1,3 +1,11 @@
+body{
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color:#0d6efd;
+}
 .App{
     max-width: 600px;
     margin: 30px auto;
