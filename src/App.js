@@ -9,9 +9,9 @@ export default function App() {
           <footer>
             <p>
                 This project was created by 
-                <a href='https://www.linkedin.com/in/olha-chumbash-597568269/' target='_blanck'>  Olha Chimbash </a>
+                <a href='https://www.linkedin.com/in/olha-chumbash-597568269/' target='_blanck' rel="noopener norefer">  Olha Chimbash </a>
                 and is 
-                <a href='https://github.com/OlhaChumbash/weather-react' target='_blanck'> open-sourced on GitHub</a>
+                <a href='https://github.com/OlhaChumbash/weather-react' target='_blanck' rel="noopener noreferrer"> open-sourced on GitHub</a>
             </p>
                          
           </footer>
